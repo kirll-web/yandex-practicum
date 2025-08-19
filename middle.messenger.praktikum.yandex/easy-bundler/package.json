@@ -1,0 +1,18 @@
+{
+  "name": "easy-bundler",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config ./config/vite.config.js",
+    "build": "tsc && vite build --config ./config/vite.config.js",
+    "preview": "vite preview --config ./config/vite.config.js"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "vite-plugin-handlebars": "^2.0.0"
+  }
+}
